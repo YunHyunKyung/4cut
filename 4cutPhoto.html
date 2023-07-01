@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="4cutPhoto.css" />
+    <title>코딩네컷</title>
+</head>
+<body>
+    <div class="container">
+        <div class="photos">
+            <div id="image1" class="photo-frame" onmouseover="showText(1)" onmouseout="hideText(1)"
+            onclick="alertText(1)">
+                <span id="desc1" class="photo-description">사진1</span>
+            </div>
+            <div id="image2" class="photo-frame" onmouseover="showText(2)" onmouseout="hideText(2)" onclick="alertText(2)">
+                <span id="desc2" class="photo-description">사진2</span>
+            </div>
+            <div id="image3" class="photo-frame" onmouseover="showText(3)" onmouseout="hideText(3)" onclick="alertText(3)">
+                <span id="desc3" class="photo-description">사진3</span>
+            </div>
+            <div class="photo-frame">
+                <iframe class="video" src="https://www.youtube.com/embed/r2VZQa2IgP4" frameborder="0">
+                </iframe>
+                <span id="desc4" class="photo-description"></span>
+            </div>
+        </div>
+        <div class="footer">
+            <p class="f-title">HEAR ME OUT</p>
+            <p class="f-date">2023.07.10</p>
+        </div>
+    </div>
+    <script type="text/javascript" src="./4cutPhoto.js"></script>
+</body>
+</html>
